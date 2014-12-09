@@ -26,7 +26,7 @@
 ##  [3,]  2.02090121  1.2171553 -0.3866329## 
 ##
 ##  A call to the function set() will replace the original matrix and delete
-##  is calculated inverse (if one exists).
+##  its calculated inverse (if one exists).
 ##
 ##
 ##
@@ -60,7 +60,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ##  matrix(1:16, 4, 4).)
 ## 
 ##  Since the class assignment specifically says to assume that the matrix 
-##  is not singular, the cacheSolve function does not check to see that
+##  is invertible (not singular), the cacheSolve function does not check to see that
 ##  the matrix is not singular. A check to verify that the determinant of the 
 ##  matrix is not zero could prevent passing a singular matrix to the 
 ##  Solve function.
