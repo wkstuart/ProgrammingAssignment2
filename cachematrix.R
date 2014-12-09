@@ -52,7 +52,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ##
 ##  The function cacheSolve() uses the functions within the object 
 ##  created with makeCacheMatrix() to store the computed inverse matrix
-##  within that object 
+##  within that object.
 ## 
 ##  An inverse matrix can only be calculated for square, non-singular matrices.
 ##  The Solve function will end with an error if the matrix is 
